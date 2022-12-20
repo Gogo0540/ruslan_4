@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>book detail</title>
+</head>
+<body>
+<center>
+    <button><a href="/books/">Back</a></button>
+    <h3>Название книги</h3>
+  <h1>{{book.title}}</h1>
+  <img src="{{book.image.url}}" alt="" width="200" height="200">
+    <h3>Описание</h3>
+  <p>{{book.description}}</p>
+    <h3>дата изменения</h3>
+  <p><b>{{book.updated_date}}</b></p>
+    <h3>Дата загрузки</h3>
+  <p><i>{{book.created_date}}</i></p>
+</center>
+
+</body>
+</html>
